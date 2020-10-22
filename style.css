@@ -15,8 +15,8 @@ a{
 }
 
 a:hover{
-    color: green;
     border-radius: 5px;
+    color: green;
 }
 
 .center{
