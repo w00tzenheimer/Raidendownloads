@@ -1,0 +1,17 @@
+{
+    "DOS": {
+        "Boot Disk": {
+            "MS-DOS 6.0 (FLP, 1.44 MB Floppy With Utils)": "../downloads/DOS/MS-DOS6UtillsDisk01.flp"
+        },
+        "MS-DOS": {
+            "MS-DOS 6.22 (1.44 MB Floppy)": "../downloads/DOS/DOS622FLOPPY.zip",
+            "MS-DOS 7.1 (ISO)": "../downloads/DOS/dos71cd.iso",
+            "MS-DOS 7.1 (1.44 MB Floppy)": "../downloads/DOS/DOS71FLOPPY.ZIP"
+        }
+    },
+    "Windows": {
+        "3.xx": {
+            "Windows For Workgroups 3.11 Mini (2.88 MB Floppy)": "../downloads/windows/wfw311miniram.img"
+        }
+    }
+}

@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+html, body, .container {
+    height: 100%;
+}
+
+
+body{
+    background-color: rgb(36, 41, 48);
+    color: white;
+    font-family: Roboto;
+    font-size: x-large;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+select {
+    background-color: #333333;
+    border: 0;
+    color: white;
+    font-family: Roboto;
+    font-size: x-large;
+    padding: 0.5rem;
+    width: 20rem;
+    text-align-last: center;
+}
+
+#downloadP {
+    margin: 2rem;
+}
+
+a#download {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 1rem;
+    background-color: #416d35;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+a#download[href^="https://raidendownloads.netlify.app"] {
+    background-color: #156300;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 160, 253);
+}
+
+a:hover {
+    background-color: green;
+    border-radius: 5px;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+    margin: 0 20px 0 0;
+}
+
+.background-header {
+    background-color: rgb(51, 54, 57);
+    color: rgb(255, 255, 255);
+    padding: 5px 0 0 20px;
+}
+
+@media(max-width: 1024px){
+    body{
+        font-size: 24px;
+    }
+
+    .container {
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    select {
+        background-color: #333333;
+        border: 0;
+        color: white;
+        font-family: Roboto;
+        font-size: medium;
+        padding: 0.5rem;
+        width: 17rem;
+        text-align-last: center;
+    }
+    
+    #downloadP {
+        margin: 2rem;
+    }
+    
+    a#download {
+        font-size: medium;
+    }
+}
