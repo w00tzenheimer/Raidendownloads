@@ -1,5 +1,5 @@
 # Raidendownloads
 Welcome
+Any software you download from here will require a product key (if it does) you will need to provide your own product key.
 # Release notes
-Build: 55.
-[![Netlify Status](https://api.netlify.com/api/v1/badges/3dee567a-e4f2-4b5a-94f4-912a9adedce9/deploy-status)](https://app.netlify.com/sites/raidendownloads/deploys)
+Build: 63.
